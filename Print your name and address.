@@ -1,0 +1,33 @@
+
+#include<stdio.h>
+int main()
+{
+
+// wirte a simple progrma to print you name and addresh
+//	printf("Name :- Ayush Khanduri\n");
+//	printf("Addresh :- Uttrakhand,Rudraprayag,kamera\n");
+//	return 0;
+
+char Name[10],state[10],dis[10],vil[10];
+int pin[6];
+
+printf("Enter You Nmae: ");
+scanf("%s",Name);
+printf("Enter You State Nmae: ");
+scanf("%s",state);
+printf("Enter You Distric Nmae: ");
+scanf("%s",dis);
+printf("Enter You Village Nmae: ");
+scanf("%s",vil);
+printf("Enter You Pincode: ");
+scanf("%d",&pin);
+printf(" ");
+printf("Name :- %s\n",Name);
+printf("State :- %s\n",state);
+printf("Distric :- %s\n",dis);
+printf("Village :- %s\n",vil);
+printf("Pincode :- %d\n",pin);
+
+
+return 0;
+}
