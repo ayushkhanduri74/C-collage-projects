@@ -1,0 +1,37 @@
+//	 swap two varible using  third varible
+#include<stdio.h>
+int main(){
+	
+//	int first,second,temp;
+//	printf("Enter the first number: ");
+//	scanf("%d",&first);
+//
+//	printf("Enter the second number: ");
+//	scanf("%d",&second);
+//	
+////	 swap two varible using  third varible
+//
+// temp = first;
+// first = second;
+// second = first;
+// 
+// printf("After swaping,First Number%d\n",first);
+// printf("After swaping,second Number%d\n",second);
+	
+// swap two varible without using third varible
+
+int var1,var2,temp;
+printf("Enter The Two Numbers: ");
+scanf("%d%d",&var1,var2);
+
+printf("Before using swaping\nFirst Variable = %d\nSecond Variable = %d\n");
+
+var1 = var1 + var2;
+var2 = var1 - var2;
+var1 =  var1 - var2;
+
+printf("After swaping\nFirst Variable = %d\nSecond Variable = %d\n",var1,var2); 
+
+
+	return 0;
+}
