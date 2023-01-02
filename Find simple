@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+	char name[10];
+	float a,r,t,si;
+	
+	printf("Enter Your Name: ");
+	scanf("%s",name);
+	
+	printf("Enter Amount: ");
+	scanf("%f",&a);
+	printf("Enter Interst rate: ");
+	scanf("%f",&r);
+	printf("Enter Timr priode: ");
+	scanf("%f",&t);
+	
+	si = a*r*t;
+	
+	printf("Hey ! %s Your simple intrest \n %f",name,si);
+
+return 0;
+}
