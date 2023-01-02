@@ -1,0 +1,27 @@
+// Find simple and compound interest
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float principle,time,rate,ci;
+	
+	// Input from User Amount,time & rate
+	
+	printf("Enter Amounte (Principle)\n");
+	scanf("%f",&principle);
+	
+	printf("Enter Interst Rate\n");
+	scanf("%f",&rate);
+	
+	printf("Enter Time Periode\n");
+	scanf("%f",&time);
+	
+	// Now right a compoun interest formula
+	 ci = principle*(pow((1 + rate/100),time));
+	 
+	 printf("Compond interest = \n %f",ci);
+	
+	
+return 0;	
+}
