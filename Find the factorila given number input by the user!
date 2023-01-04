@@ -12,11 +12,13 @@ if(n<0)
 {
 	printf("Error ! Error ! Factorial Of A Negetive Number Does't Exist..!'");
 }
+else{
 for(int i =1; i<=n; i++)
 {
 fact = fact*i;
 }
 printf("Factorial of %d is %d",n,fact);
+}
 return 0;
 }
 // iNFiNiT4 
