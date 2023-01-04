@@ -17,7 +17,7 @@ int main()
 	printf("Enter Time Proide: ");
 	scanf("%f",&t);
 	
-	si = a*r*t;
+	si = (a*r*t)/100;
 	
 	printf("Hey ! %s Your Simple Interest \n %f",name,si);
 
